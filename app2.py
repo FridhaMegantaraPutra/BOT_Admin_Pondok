@@ -5,6 +5,7 @@ from PIL import Image
 import PyPDF2
 import nltk
 from transformers import pipeline
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 
 # Load environment variables from .env file
 load_dotenv()
